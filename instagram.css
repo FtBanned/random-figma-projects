@@ -8,9 +8,8 @@
     height: auto;
 }
 .button{
-width: 330px;
+max-width: 330px;
 height: 36px;
-flex-shrink: 0;
 border-radius: 8px;
 background: #1877F2;
 display: flex;
@@ -22,11 +21,9 @@ margin: 30px auto 0;
 svg{
 width: 32px;
 height: 32px;
-flex-shrink: 0;
 margin-right: 10px
 }
 p{
-flex-shrink: 0;
 color: #FFF9F9;
 font-family: Roboto;
 font-size: 18px;
@@ -38,14 +35,15 @@ line-height: normal;
 width: 120px;
 height: 1px;
 background: #C5C5C5;
-margin-left: 510px;
+margin-left: 505px;
 margin-top: 35px;
+display: flex;
 }
 .line2{
 width: 124px;
 height: 1px;
 background: #CCC;
-margin-left: 715px;
+margin-left: 708px;
 margin-top: -1px;
 }
 .text1{
@@ -55,27 +53,26 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 663px;
+margin-left: 658px;
 margin-top: -8px;
 }
 .email{
 width: 330px;
 height: 35px;
-flex-shrink: 0;
 border-radius: 6px;
 border: 2px solid #E0DDDD;
 background: rgba(232, 230, 230, 0.50);
-margin-left: 505px;
+margin-left: 500px;
 margin-top: 10px;
 }
 input:focus {
     outline:none;
 }
 input[type="email"]::placeholder {
-    text-indent: 5px; /* Dilediğiniz miktarda kaydırma değeri */
+    text-indent: 5px;
   }
   input[type="password"]::placeholder {
-    text-indent: 5px; /* Dilediğiniz miktarda kaydırma değeri */
+    text-indent: 5px;
   }
 .password{
 width: 330px;
@@ -84,7 +81,7 @@ flex-shrink: 0;
 border-radius: 6px;
 border: 2px solid #E0DDDD;
 background: rgba(232, 230, 230, 0.50);
-margin-left: 505px;
+margin-left: 500px;
 margin-top: 5px;
 }
 .pass{
@@ -98,14 +95,13 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-decoration: none;
-margin-left: 740px;
+margin-left: 735px;
 display: flex;
 flex-wrap: wrap;
 }
 .log{
-width: 338px;
+min-width: 338px;
 height: 42px;
-flex-shrink: 0;
 border: none;
 color: #FFFEFE;
 font-family: Roboto;
@@ -117,7 +113,7 @@ letter-spacing: 0.3px;
 border-radius: 6px;
 background: rgba(24, 119, 242, 0.36);
 cursor: pointer;
-margin-left: 505px;
+margin-left: 501px;
 margin-top: 20px;
 }
 .span2{
@@ -157,3 +153,40 @@ line-height: normal;
 margin-left: 647px;
 margin-top: 65px;
 }
+
+ /* Ekran genişliği 1080 piksel veya daha küçük ise */
+@media (max-width: 1080px)  and (max-height: 2400px)  {
+    .button{
+        margin-left: 360px;
+    }
+    .email{
+      margin-left: 360px;
+    }
+    .password{
+        margin-left: 360px;
+    }
+    .apass{
+        margin-left: 590px;
+    }
+    .log{
+        margin-left: 360px;
+    }
+    .line1{
+        margin-left: 360px;
+    }
+    .line2{
+        margin-left: 570px;
+    }
+    .text1{
+        margin-left: 515px;
+    }
+    .sign{
+        margin-left: 435px;
+    }
+    .metatxt{
+        margin-left: 503px;
+    }
+    .meta{
+        margin-left: 475px;
+    }
+  }
