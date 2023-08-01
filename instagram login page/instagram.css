@@ -35,9 +35,9 @@ line-height: normal;
 width: 120px;
 height: 1px;
 background: #C5C5C5;
-margin-left: 505px;
-margin-top: 35px;
 display: flex;
+margin-top: 35px;
+margin-left: 500px;
 }
 .line2{
 width: 124px;
@@ -154,39 +154,4 @@ margin-left: 647px;
 margin-top: 65px;
 }
 
- /* Ekran genişliği 1080 piksel veya daha küçük ise */
-@media (max-width: 1080px)  and (max-height: 2400px)  {
-    .button{
-        margin-left: 360px;
-    }
-    .email{
-      margin-left: 360px;
-    }
-    .password{
-        margin-left: 360px;
-    }
-    .apass{
-        margin-left: 590px;
-    }
-    .log{
-        margin-left: 360px;
-    }
-    .line1{
-        margin-left: 360px;
-    }
-    .line2{
-        margin-left: 570px;
-    }
-    .text1{
-        margin-left: 515px;
-    }
-    .sign{
-        margin-left: 435px;
-    }
-    .metatxt{
-        margin-left: 503px;
-    }
-    .meta{
-        margin-left: 475px;
-    }
-  }
+ 
